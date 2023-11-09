@@ -6,9 +6,9 @@ tags:
   - Statistics
   - R
 date: "2022-06-18T00:00:00Z"
+type: book
 # # Optional external URL for project (replaces project detail page).
 # external_link: ''
-
 image:
   caption: ''
   focal_point: smart
@@ -33,8 +33,8 @@ url_video: ''
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+
 ---
-{{< toc >}}
 ## INTRODUCTION
 
 Hypertension is the most significant risk factor for cardiovascular disease and mortality [1]. Although there is evidence showing that cardiovascular disease is common among older people [2], it is crucial to explore those human body factors that can influence blood pressure to prevent cardiovascular disease through control of blood pressure. 
