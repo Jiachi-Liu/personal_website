@@ -22,14 +22,14 @@
   </p>
   {{ end }} -->
 
-  {{ with site.Copyright }}
+  <!-- {{ with site.Copyright }}
   <p class="powered-by">
     {{ replace . "{year}" now.Year | markdownify }}
   </p>
   {{ end }}
 
   {{/* Display copyright license. */}}
-  {{ partial "site_footer_license" . }}
+  {{ partial "site_footer_license" . }} -->
 
   <p class="powered-by">
     {{ $default := "Built using <a href=\"https://gohugo.io\" target=\"_blank\" rel=\"noopener\">Hugo</a> and the <a href=\"https://github.com/wowchemy/starter-hugo-academic\" target=\"_blank\" rel=\"noopener\">Wowchemy academic template</a>. View <a href=\"https://github.com/Jiachi-Liu/personal_website\" target=\"_blank\" rel=\"noopener\">source</a>." }}
@@ -50,3 +50,7 @@
     {{ end }} -->
   </p>
 </footer>
+
+
+
+
