@@ -8,6 +8,7 @@ tags:
 date: "2022-06-18T00:00:00Z"
 # # Optional external URL for project (replaces project detail page).
 # external_link: ''
+
 image:
   caption: ''
   focal_point: smart
@@ -32,9 +33,8 @@ url_video: ''
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
-
+type: book
 ---
-{{< toc >}}
 ## Introduction
 
 Hypertension is the most significant risk factor for cardiovascular disease and mortality [1]. Although there is evidence showing that cardiovascular disease is common among older people [2], it is crucial to explore those human body factors that can influence blood pressure to prevent cardiovascular disease through control of blood pressure. 
@@ -67,14 +67,14 @@ The homoscedasticity and linearity assumptions were checked to see any systemati
 
 ## RESULTS
 
-{{< figure src="STA302.003.jpg" caption="<strong>Figure 1 </strong>:Model comparison table after selecting 3 models as candidate models" theme="light" >}}
+{{< figure src="STA302.003.jpg" caption="<strong>Figure 1 </strong>:Model comparison table after selecting 3 models as candidate models" theme="dark" >}}
 
 Although the model selected by stepwise AIC does not have the lowest BIC values, it has the lowest prediction error (258.99), highest adjusted R2 (0.23) and smallest AIC (2208)(Figure 1). Additionally, stepwise based on the AIC model fits the ideal line best comparing the other two models (Figure 2). Therefore, it is the best model with three predictors: gender, age, and poverty ratio. 
 
-{{< figure src="STA302.004.jpeg" caption="<strong>Figure 2 </strong>:Model comparison using Cross-Validation calibration plots" theme="light" >}}
+{{< figure src="STA302.004.jpeg" caption="<strong>Figure 2 </strong>:Model comparison using Cross-Validation calibration plots" theme="dark" >}}
 
 
-![](STA302.005.jpeg){{< figure src="STA302.005.jpeg" caption="<strong>Figure 3 </strong>:(a): residual plots against fitted value; (b) Normal QQ plot; (c) Root absolute standardized residual plots against fitted values; (d) standardized residuals against leverage points. (Model diagnostic plots)" theme="light" >}}
+![](STA302.005.jpeg){{< figure src="STA302.005.jpeg" caption="<strong>Figure 3 </strong>:(a): residual plots against fitted value; (b) Normal QQ plot; (c) Root absolute standardized residual plots against fitted values; (d) standardized residuals against leverage points. (Model diagnostic plots)" theme="dark" >}}
  
 
 The normality assumption is met. Most of the standardized residuals are on the normal line. Although a small part of standard residuals deviates from the line, they are not crazy (Figure 3). 
@@ -86,11 +86,11 @@ Since there are no particular patterns in the model diagnostic plot (Figure 3, A
 No assumptions are violated seriously, and no transformation is necessary for model. The dashed vertical line is the usual cut-off for high leverage point (i.e $2 *  \frac{p+1}{n}= 0.025$), the cook distance method did not detect any influential points, and two outliers were detected (Figure 3 d). 
 
 
-{{< figure src="STA302.007.jpeg" caption="<strong>Figure 4 </strong>:Final model summary table" theme="light" >}}
+{{< figure src="STA302.007.jpeg" caption="<strong>Figure 4 </strong>:Final model summary table" theme="dark" >}}
 
 Participants’ gender and age were significantly associated with blood pressure (P-value < 0.05, Figure 4). Given all other predictors constant, males have 4.842 higher than females on blood pressure on average, and the average blood pressure increase by 0.502 for each unit increase in average age. In contrast, the poverty ratio with blood pressure (P-value > 0.05) is slightly significant, not as significant as age and gender. The model reveals that a 1 unit increase in the average poverty ratio will decrease blood pressure by 0.929. This implies that people with higher income might pay more attention to their blood pressure, while people with low income might seldom consider controlling their blood pressure. 
 
-{{< figure src="STA302.008.jpeg" caption="<strong>Figure 5 </strong>:(a) Boxplot of blood pressure reading; (b) Blood pressure comparison between Smoker and Non-smokers" theme="light" >}}
+{{< figure src="STA302.008.jpeg" caption="<strong>Figure 5 </strong>:(a) Boxplot of blood pressure reading; (b) Blood pressure comparison between Smoker and Non-smokers" theme="dark" >}}
 
 The model summarizes that the blood pressure of people who smoke have 0.08 higher than people who do not smoke on average with other predictors constant, the Side-by-Side boxplot and model P-value(> 0.5) imply there is no significant association between smoking and blood pressure because both blood pressures are centred at around 120. However, 50% of smokers are slightly lower than non-smokers’ (Figure 5). 
 
@@ -114,9 +114,9 @@ In conclusion, the model's findings suggest the need for further research to und
 
 ## APPENDIX
 
-{{< figure src="STA302.010.jpeg" caption="<strong>Appendix 1 </strong>:Relevant variables in data used in model" theme="light" >}}
+{{< figure src="STA302.010.jpeg" caption="<strong>Appendix 1 </strong>:Relevant variables in data used in model" theme="dark" >}}
 
-{{< figure src="STA302.011.jpeg" caption="<strong>Appendix 2 </strong>:Final Model (a) Standardized residual against fitted value; (b) blood pressure reading(response) against fitted value." theme="light" >}}
+{{< figure src="STA302.011.jpeg" caption="<strong>Appendix 2 </strong>:Final Model (a) Standardized residual against fitted value; (b) blood pressure reading(response) against fitted value." theme="dark" >}}
 
 ## REFERENCE
 

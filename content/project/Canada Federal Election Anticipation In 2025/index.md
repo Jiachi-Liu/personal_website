@@ -33,8 +33,9 @@ url_video: ''
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+type: book
 ---
-{{< toc >}}
+
 ``` r
 # Loading the packages
 knitr::opts_chunk$set(warning = FALSE, message = FALSE)
