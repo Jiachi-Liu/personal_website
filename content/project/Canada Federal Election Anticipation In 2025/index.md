@@ -7,7 +7,6 @@ tags:
   - R
   - 
 date: '2022-11-18T00:00:00Z'
-type: book
 # # Optional external URL for project (replaces project detail page).
 # external_link: ''
 
@@ -35,7 +34,7 @@ url_video: ''
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-
+{{< toc >}}
 ``` r
 # Loading the packages
 knitr::opts_chunk$set(warning = FALSE, message = FALSE)

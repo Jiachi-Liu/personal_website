@@ -6,7 +6,6 @@ tags:
   - Statistics
   - R
 date: "2022-06-18T00:00:00Z"
-type: book
 # # Optional external URL for project (replaces project detail page).
 # external_link: ''
 image:
@@ -35,13 +34,14 @@ url_video: ''
 slides: ""
 
 ---
-## INTRODUCTION
+{{< toc >}}
+## Introduction
 
 Hypertension is the most significant risk factor for cardiovascular disease and mortality [1]. Although there is evidence showing that cardiovascular disease is common among older people [2], it is crucial to explore those human body factors that can influence blood pressure to prevent cardiovascular disease through control of blood pressure. 
 
 Therefore, the study aims to identify what factors are significantly associated with the combined systolic blood pressure reading by building a linear regression model, and to investigate whether there is an association between smoking and blood pressure. 
 
-## METHODS
+## Methods
 
 This study was conducted using health and nutrition survey data from the 2011-2012 US National Center for Health Statistics (NCHS). Data from 400 participants focused on 16 variables (Excluding ID) for people over 17 years old were used in analyses, and 343 participants' data were used as testing data for model accuracy. 
 
